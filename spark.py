@@ -1,6 +1,7 @@
 from pyspark import SparkConf, SparkContext
 from pyspark.streaming import StreamingContext
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+# citation: Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.
 import json
 import re
 from elasticsearch import Elasticsearch
