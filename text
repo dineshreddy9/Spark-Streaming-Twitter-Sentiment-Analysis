@@ -1,0 +1,7 @@
+Implemented the following framework using Apache SparkStreaming, ElasticSearch and Kibana. The framework performs sentiment analysis
+of particular hashtags in twitter data in real time. For example, we want to do the
+sentiment analysis for all the tweets for #guncontrolnow and show their
+(e.g.,positive, neutral, negative) statistics in Kibana.
+For this, frst I got the tweets via scrapper (stream.py). Next, I had written a
+sentiment analysis program to predict sentiment of the tweet message. Finally, I had visualized the findings using ElasticSearch/Kibana.
+Scrapper -> Sentiment Analyzer/Common topic fnder -> Visualizer (ElasticSearch/Kibana)
